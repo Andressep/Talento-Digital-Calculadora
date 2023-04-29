@@ -1,12 +1,13 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'roboto', arial, helvetica, sans-serif;
     color: #FFF;
 }
 body {
     box-sizing: border-box;
     margin: 0px;
 
-    background-color: #00aaf4;
+    background: #188EA5;
+    background: linear-gradient(270deg, #188EA5, #758DE1); 
 }
 .container {
     display: flex;
@@ -20,8 +21,9 @@ body {
     grid-template-columns: repeat(4, 75px);
     grid-template-rows: 160px repeat(5, 75px);
 
-    background-color: #00689a;
+    background-color: black;
     padding: 15px;
+    border: solid 2px #e2e2e2;
     border-radius: 32px;
     box-shadow: 15px 14px 7px 0px rgba(0,0,0,0.1);
 }
@@ -35,9 +37,28 @@ button {
     border-radius: 32px;
     font-size: 1.5em;
     border: none;
-    background-color: #00689a;
-    box-shadow: 10px 10px 7px -3px rgba(0,0,0,0.1), -1px -1px 10px 3px rgba(0,0,0,0.1);
 }
+.especial {
+    background-color: rgb(120, 120, 120);
+    color: black;
+}
+.especial:hover {
+    background-color: rgb(170, 170, 170);
+}
+.operador {
+    background-color: rgb(252, 141, 12);
+}
+.operador:hover {
+    background-color: rgb(252, 191, 62);
+}
+.numero {
+    background-color: rgb(38, 38, 38);
+}
+.numero:hover {
+    background-color: rgb(88, 88, 88);
+}
+
+
 button:active {
     background-color: #026390;
 }
