@@ -22,7 +22,7 @@ body {
     grid-template-rows: 160px repeat(5, 75px);
 
     background-color: black;
-    padding: 15px;
+    padding: 15px 10px;
     border: solid 2px #e2e2e2;
     border-radius: 32px;
     box-shadow: 15px 14px 7px 0px rgba(0,0,0,0.1);
@@ -57,14 +57,6 @@ button {
 .numero:hover {
     background-color: rgb(88, 88, 88);
 }
-
-
-button:active {
-    background-color: #026390;
-}
-button:focus {
-    outline: none;
-}
 .display {
     grid-column: 1 / -1;
     padding: 16px;
@@ -74,16 +66,14 @@ button:focus {
     align-items: flex-end;
     margin: 10px 10px 20px;
 
-    background-color: #363636;
     border-radius: 15px;
     text-align: right;
     justify-content: space-between;
     word-break: break-all;
-    box-shadow: 0px 0px 0px 5px #00000033;
 }
 #valor_actual {
-    font-size: 1.5em;
+    font-size: 4em;
 }
 #valor_anterior {
-    font-size: 2em;
+    font-size: 2.5em;
 }
