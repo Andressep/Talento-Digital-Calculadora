@@ -7,6 +7,7 @@ Configuración del proyecto
 
 1. Clona el repositorio en tu máquina local:
 gh repo clone Andressep/Talento-Digital-Calculadora
+https://github.com/Andressep/Talento-Digital-Calculadora.git
 
 2. Accede al directorio del proyecto e instala lo necesario para la revisión
 
